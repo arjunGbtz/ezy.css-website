@@ -1,0 +1,32 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: #111;
+    background-image: url("./assets/bg.png");
+}
+.gradient {
+    background: linear-gradient(90deg, #ffa9a9, #ffc09b, #cb8cd1);
+    background-size: 200%;
+    animation: gradientShift 6s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+pre {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: left;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: ui-monospace, monospace;
+    font-size: 0.875rem;
+}
+pre code {
+    color: #f8f8f2;
+}

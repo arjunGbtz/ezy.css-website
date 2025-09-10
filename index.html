@@ -6,40 +6,7 @@
     <link rel="stylesheet" href="ezy/ezy.min.css">
     <script src="ezy/ezy.js"></script>
     <title>🫧 ezy.css</title>
-    <style>
-        body {
-            font-family: system-ui, sans-serif;
-            background: #111;
-            background-image: url("./assets/bg.png");
-        }
-        .gradient {
-            background: linear-gradient(90deg, #ffa9a9, #ffc09b, #cb8cd1);
-            background-size: 200%;
-            animation: gradientShift 6s ease infinite;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        @keyframes gradientShift {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-        pre {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 0.5rem;
-            padding: 1rem;
-            text-align: left;
-            overflow-x: auto;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            font-family: ui-monospace, monospace;
-            font-size: 0.875rem;
-        }
-        pre code {
-            color: #f8f8f2;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="mb-5">
@@ -56,8 +23,8 @@
         <div class="text-center text-white mb-5 hover-scale-sm transition-slow">
             <h1 class="text-4xl mb-2 gradient">ezy.css</h1>
             <p class="text-md">A lightweight, modern CSS framework for rapid prototyping.</p>
-            <a href="#" class="btn bg-white text-black deco-none rounded hover-scale-md hover-shadow mt-4 transition-md">Get Started</a>
-            <a href="#" class="btn btn-border bg-none w-10 text-white deco-none rounded hover-scale-md hover-shadow mt-4 transition-md">Docs</a>
+            <a href="./docs/docs.html#/getting-started" class="btn bg-white text-black deco-none rounded hover-scale-md hover-shadow mt-4 transition-md">Get Started</a>
+            <a href="./docs/docs.html" class="btn btn-border bg-none w-10 text-white deco-none rounded hover-scale-md hover-shadow mt-4 transition-md">Docs</a>
         </div>
         <div class="grid gap-4 p-4 hover-scale-sm transition-slow">
             <div class="card card-glass rounded-sm p-4" ezy-animate="zoom-in">
