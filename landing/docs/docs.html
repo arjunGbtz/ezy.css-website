@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🫧 ezy.css</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" />
+  <style>
+    :root {
+      --theme-color: #af9cff;
+    }
+    body {
+      background-color: #101010 !important;
+    }
+
+    .sidebar {
+      background-color: #101010 !important;
+    }
+
+    .sidebar-toggle {
+        background-color: #101010 !important;
+        width: 2.5rem;
+    }
+    pre, code {
+      font-family: 'Fira Code', Consolas, Monaco, 'Courier New', monospace;
+      font-size: 0.9rem;
+      border-radius: 0.5rem;
+      background-color: #1e1e1e !important;
+    }
+    h1, h2, h3, h4 {
+      color: var(--accent-color);
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      darkLightTheme: {
+        defaultTheme: 'dark'
+      },
+      loadSidebar: true,
+      subMaxLevel: 2
+    };
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
