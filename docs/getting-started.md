@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started 👀
 
 ## Installation
 
@@ -15,7 +15,7 @@ Currently, ezy.css is not available via npm or CDN.
 <script src="ezy/ezy.js"></script>
 ```
 
-### Via Shell
+### Via Shell (advanced)
 
 You can download the files directly with curl or wget
 
@@ -53,3 +53,6 @@ Then you can start using ezy.css utilities:
 </body>
 </html>
 ```
+
+find more examples [here](examples.md)
+or continue with [utilities](utilities.md)

@@ -1,4 +1,6 @@
-- [Home](../index.html)
+- [Home](README.md)
 - [Getting Started](getting-started.md)
 - [Utilities](utilities.md)
-- [components](components.md)
+- [Components](components.md)
+- [Animations](animations.md)
+- [Examples](examples.md)

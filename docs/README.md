@@ -10,6 +10,12 @@ ezy.css is a lightweight, modern CSS framework for rapid prototyping.
 
 [Installation & Usage](getting-started.md)
 
+[Utilities](utilities.md)
+
+[Components](components.md)
+
+[Animations](animations.md)
+
 ## Examples
 
 [See examples](examples.md)
