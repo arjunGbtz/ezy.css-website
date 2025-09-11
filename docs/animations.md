@@ -1,3 +1,3 @@
-# Animations 😎
+# Animations😎
 
 ## soon ™️

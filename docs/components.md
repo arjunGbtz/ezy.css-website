@@ -1,9 +1,10 @@
-# Components 📦
+# Components📦
 
 ezy.css contains a small but powerful collection of components.
 
 These are based on the utility classes and can be freely customized.
 
+**Note**: most of these components with some exceptions do not contain background colors, etc. by default, they need to be manually set 
 
 ## Buttons
 
@@ -19,7 +20,7 @@ Buttons are designed using the ".btn" class. Combine these with color utilities 
 
 ### Sizes
 - `.btn-sm` Small
-- `.btn-md` Mid
+- `.btn-md` Medium
 - `.btn-lg` Large
 - `.btn-xl` Extra large
 
@@ -28,7 +29,7 @@ Example:
 ```html
 <button class="btn btn-primary">Primary</button>
 <button class="btn btn-outline">Outline</button>
-<button class="btn btn-ghost btn-sm">Small ghost</button>
+<button class="btn btn-sm">Small ghost</button>
 ```
 
 ## Cards
@@ -37,8 +38,8 @@ Cards are simple containers with border and padding. Use utility classes to cust
 
 ---
 
-- `.card` simple card as discribed above
-- `.glasscard` Glassmorphism card
+- `.card` simple card as described above
+- `.card-glass` Glassmorphism card
 
 Example:
 
@@ -57,7 +58,7 @@ Alerts display important messages. Use color classes to indicate type
 ---
 
 - `.alert` basic alert
-- use creativity as shown below
+- use your creativity with color and style as shown below
 
 Examples:
 
@@ -112,10 +113,10 @@ Form controls like inputs and textareas come with base styles
 - `.input-sm`, `input-lg` sizes
 
 
-- `:valid` changes the bordercolor to `--color-success`
-- `:invalid` changes the bordercolor to `--color-error`
+- `:valid` changes the border color to `--color-success`
+- `:invalid` changes the border color to `--color-error`
 
-change these colors in the `:root`, learn more about custom colors [here](colors.md?id=custom)
+You can customize these colors in :root. Learn more about custom colors [here](colors.md)
 
 Examples:
 
@@ -126,13 +127,13 @@ Examples:
 
 ## Tables
 
-Tables use minimal styling out of the box, enhance with utils for borders spacing etc.
+Tables use minimal styling out of the box, enhance with utilities for borders, spacing, and colors.
 
 ---
 
 - `.table` default table
 - `.borderless` removes table borders
-- `.bg` change the tables border color
+- `.bc-*` change table border color
 - etc.
 
 Example:
@@ -160,3 +161,47 @@ Example:
     </tbody>
 </table>
 ```
+
+## Badges
+
+Badges are small labels for notifications, status or counters
+
+---
+
+- `.badge` basic badge
+- use color utilities like `bg-*` and `text-*` for badge styling
+
+Example:
+
+```html
+<span class="badge bg-red text-white rounded">New</span>
+<span class="badge bg-green text-white rounded">Success</span>
+```
+
+## Navbar
+
+Navbar is a flexible container for navigation links
+
+- `.navbar` main container
+- `ul` & `li` comes with basic styling but can be customized with utility classes
+
+Example:
+
+```html
+<nav class="navbar bg-darkgray text-white p-3 rounded">
+    <h1 class="text-lg font-bold">Brand</h1>
+    <ul class="flex gap-3">
+        <li><a href="#" class="text-white">Home</a></li>
+        <li><a href="#" class="text-white">About</a></li>
+        <li><a href="#" class="text-white">Contact</a></li>
+    </ul>
+</nav>
+```
+
+### 🎉 Congratulations! You've now mastered all the core components of ezy.css!
+
+You can freely combine buttons, cards, alerts, modals, and more.
+
+Want something a little more fancy? Customize colors, sizes, and animations with utility classes.
+
+Next: Dive into and fancy [colors](colors.md?id=Colors🎨) and [animations](animations.md?id=Animations😎) to make your UI shine! ✨

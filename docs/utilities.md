@@ -1,4 +1,4 @@
-# Utilities 🛠️
+# Utilities🛠️
 
 ## Spacing
 
@@ -535,3 +535,5 @@ With these utilities, you can create 90% of your layouts without your own CSS ru
 If you're wondering, "What about buttons, cards, or fancy animations?" – don't worry, they'll be covered in the next chapters
 
 Until then: **stay ezy.** ✌️😎
+
+continue with [Components](components.md?id=Components📦)

@@ -1,4 +1,4 @@
-# Getting Started 👀
+# Getting Started👀
 
 ## Installation
 
@@ -53,3 +53,5 @@ Then you can start using ezy.css utilities:
 </body>
 </html>
 ```
+
+Continue reading with [utilities](utilities.md?id=utilities🛠️) or [components](components.md?id=components📦)

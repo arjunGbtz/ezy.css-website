@@ -1,3 +1,3 @@
-# Colors 🎨
+# Colors🎨
 
 ## soon ™️
