@@ -503,3 +503,35 @@ Example :
 ```html
 <div class="shadow-lg p-4 bg-white rounded">Card with shadow</div>
 ```
+
+## Cursors
+
+Change the cursor style on hover
+
+---
+
+- `.cursor-pointer` cursor: pointer
+- `.cursor-default` cursor: default
+- `.cursor-move` cursor: move
+- `.cursor-not-allowed` cursor: not-allowed
+- `.cursor-text` cursor: text
+- `.cursor-wait` cursor: wait
+- `.cursor-crosshair` cursor: crosshair
+- `.cursor-help` cursor: help
+- `.cursor-grab` cursor: grab
+- `.cursor-grabbing` cursor: grabbing
+
+Example:
+
+```html
+<button class="btn cursor-pointer">Button</button>
+```
+
+---
+
+### Thats it for Utilities 🎉
+
+With these utilities, you can create 90% of your layouts without your own CSS rules.
+If you're wondering, "What about buttons, cards, or fancy animations?" – don't worry, they'll be covered in the next chapters
+
+Until then: **stay ezy.** ✌️😎
