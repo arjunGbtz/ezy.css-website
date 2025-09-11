@@ -83,4 +83,21 @@ Examples:
 </div>
 ```
 
-## 
+## Modals
+
+Modals are overlays for dialogs or extra content
+- `.modal` wrapper
+- `.modal-content` inner box
+---
+
+Example:
+
+```html
+<div class="modal" id="demo-modal">
+    <div class="modal-content p-4 rounded shadow bg-white">
+        <h2 class="text-xl font-bold">Modal Title</h2>
+        <p class="mb-4">This is a modal window.</p>
+        <button class="btn bg-blue rounded-sm">Close</button>
+    </div>
+</div>
+```
