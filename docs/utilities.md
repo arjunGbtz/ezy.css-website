@@ -313,3 +313,69 @@ you can use responsive prefixes:
 
 ### Full reference
 (For advanced users, [here](https://github.com/arjunGbtz/ezy.css/blob/main/src/utility/flex.css) is the complete set of flex utils as css)
+
+## Grid
+
+ezy.css provides a lightweight grid system using css grid. Grids make it easy to build **responsive, multi-column** layouts with just a few classes
+
+---
+
+### Basic Grid
+
+```css
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+```
+
+- `.grid` auto-responsive grid with equal columns (min. 250px wide)
+- `gap` between items defaults to `1rem`
+
+Example:
+
+```html
+<div class="grid">
+    <div class="card p-4 bg-blue text-white rounded">1</div>
+    <div class="card p-4 bg-green text-white rounded">2</div>
+    <div class="card p-4 bg-red text-white rounded">3</div>
+</div>
+```
+
+### Fixed Columns
+
+Use `.grid-2`, ..., `.grid-5` to define a fixed number of equal-width columns
+
+- `.grid-2` two columns
+- `.grid-3` three columns
+- and so on
+
+Example:
+
+```html
+<div class="grid grid-3">
+    <div class="card p-4 bg-purple text-white rounded">A</div>
+    <div class="card p-4 bg-orange text-white rounded">B</div>
+    <div class="card p-4 bg-pink text-white rounded">C</div>
+</div>
+```
+
+### Responsive Behavior
+
+- `.grid` (default) automatically adjusts the number of columns based on screen size
+- `.grid-2`, ..., `.grid-5` are fixed and may shrink on smaller screens, it is recommended to combine these with `max-w-*` or responsive utilities (`sm:`, `md:`, `lg:`) for better layouts
+
+Example:
+
+(2 columns on mobile and 4 on Desktop)
+
+```html
+<div class="grid sm:grid-2 lg:grid-4">
+    <div class="card p-4 bg-gray text-white rounded">1</div>
+    <div class="card p-4 bg-blue text-white rounded">2</div>
+    <div class="card p-4 bg-green text-white rounded">3</div>
+    <div class="card p-4 bg-red text-white rounded">4</div>
+</div>
+```
+
