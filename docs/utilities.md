@@ -438,6 +438,8 @@ Example:
 
 Use opacity utilities to control visibility levels
 
+---
+
 - `.opacity-0` invisible
 - `.opacity-50` 50% visible
 - `.opacity-100` fully visible
@@ -450,4 +452,38 @@ Example:
     <div class="bg-blue text-white p-2 opacity-50">50%</div>
     <div class="bg-blue text-white p-2 opacity-0">0%</div>
 </div>
+```
+
+## Borders
+
+Utilities for controlling **border radius, style & color**
+
+---
+
+### Border style
+
+- `.br` default border
+- `.borderless` no border
+
+### Border radius
+
+- `.rounded` default radius (**0.5rem**)
+- `.rounded-sm` small radius (**0.25rem**)
+- `.rounded-lg` lg radius (**1rem**)
+- `.rounded-full` pill/cirlce (**9999px**)
+
+Example:
+
+```html
+<div class="br rounded-lg p-2 bg-lightgray">Box with border</div>
+```
+
+### Border colors
+
+- `.bc-red`, `.bc-blue`, `.bc-*` set border color
+
+Example:
+
+```html
+<div class="br bc-purple p-2">Purple border</div>
 ```
