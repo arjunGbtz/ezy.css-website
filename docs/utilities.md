@@ -487,3 +487,19 @@ Example:
 ```html
 <div class="br bc-purple p-2">Purple border</div>
 ```
+
+## Shadows
+
+Apply depth with simply shadow utils
+
+---
+
+- `.shadow` default soft shadow
+- `.shadow-lg` larger shadow
+- `.shadow-inset` inner shadow
+
+Example :
+
+```html
+<div class="shadow-lg p-4 bg-white rounded">Card with shadow</div>
+```
