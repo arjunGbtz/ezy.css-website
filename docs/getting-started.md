@@ -53,6 +53,3 @@ Then you can start using ezy.css utilities:
 </body>
 </html>
 ```
-
-find more examples [here](examples.md)
-or continue with [utilities](utilities.md)

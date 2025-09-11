@@ -101,3 +101,24 @@ Example:
     </div>
 </div>
 ```
+
+## Inputs
+
+Form controls like inputs and textareas come with base styles
+
+- `.input` default input
+- `.input-sm`, `input-lg` sizes
+
+
+- `:valid` changes the bordercolor to `--color-success`
+- `:invalid` changes the bordercolor to `--color-error`
+
+change these colors in the `:root`, learn more about custom colors [here](colors.md?id=custom)
+
+Examples:
+
+```html
+<input type="text" class="input input-sm" placeholder="Small input">
+<input type="text" class="input" placeholder="Default input">
+```
+
