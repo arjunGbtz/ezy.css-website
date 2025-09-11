@@ -106,6 +106,8 @@ Example:
 
 Form controls like inputs and textareas come with base styles
 
+---
+
 - `.input` default input
 - `.input-sm`, `input-lg` sizes
 
@@ -122,3 +124,39 @@ Examples:
 <input type="text" class="input" placeholder="Default input">
 ```
 
+## Tables
+
+Tables use minimal styling out of the box, enhance with utils for borders spacing etc.
+
+---
+
+- `.table` default table
+- `.borderless` removes table borders
+- `.bg` change the tables border color
+- etc.
+
+Example:
+
+```html
+<table class="table rounded shadow">
+    <thead>
+        <tr class="bg-gray text-white">
+            <th>Name</th>
+            <th>Email</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Doe</td>
+            <td>john@example.com</td>
+            <td class="text-green">Active</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>jane@example.com</td>
+            <td class="text-red">Inactive</td>
+        </tr>
+    </tbody>
+</table>
+```
