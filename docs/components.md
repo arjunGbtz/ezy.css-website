@@ -4,11 +4,12 @@ ezy.css contains a small but powerful collection of components.
 
 These are based on the utility classes and can be freely customized.
 
----
 
 ## Buttons
 
 Buttons are designed using the ".btn" class. Combine these with color utilities (bg-*, text-*) and size modifiers
+
+---
 
 ### Variations
 - `.btn` Standard button
@@ -29,3 +30,57 @@ Example:
 <button class="btn btn-outline">Outline</button>
 <button class="btn btn-ghost btn-sm">Small ghost</button>
 ```
+
+## Cards
+
+Cards are simple containers with border and padding. Use utility classes to customize background text and layout
+
+---
+
+- `.card` simple card as discribed above
+- `.glasscard` Glassmorphism card
+
+Example:
+
+```html
+<div class="card shadow p-4 rounded">
+    <h3 class="text-lg font-bold">Card Title</h3>
+    <p class="text-sm">This is a simple card component.</p>
+    <button class="btn btn-primary mt-2">Action</button>
+</div>
+```
+
+## Alerts
+
+Alerts display important messages. Use color classes to indicate type
+
+---
+
+- `.alert` basic alert
+- use creativity as shown below
+
+Examples:
+
+```html
+<div class="alert bg-blue text-white rounded">
+    This is an info alert.
+</div>
+
+<div class="alert bg-green text-white rounded mt-2">
+    ✅ Success! Your action was completed.
+</div>
+
+<div class="alert bg-red text-white rounded mt-2">
+    ❌ Error: Something went wrong.
+</div>
+
+<div class="alert bg-yellow text-black rounded mt-2">
+    ⚠️ Warning: Please double check your input.
+</div>
+
+<div class="alert card-glass mt-2">
+    Glassmorphism style alert.
+</div>
+```
+
+## 

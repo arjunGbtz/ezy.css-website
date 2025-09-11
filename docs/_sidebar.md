@@ -2,5 +2,5 @@
 - [Getting Started](getting-started.md)
 - [Utilities](utilities.md)
 - [Components](components.md)
+- [colors](colors.md)
 - [Animations](animations.md)
-- [Examples](examples.md)
