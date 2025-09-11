@@ -154,3 +154,162 @@ Example:
     <p>This box is limited to 720px max width</p>
 </div>
 ```
+
+## Flexbox
+
+ezy.css comes with a full set of flexbox utilities for creating responsive layouts quickly
+
+---
+
+### Flex Container
+
+- `.flex` display: flex
+- `.inline-flex` display: inline-flex
+- `.flex-row` flex-direction: row
+- `.flex-row-reverse` flex-direction: row-reverse
+- `.flex-col` flex-direction: column
+- `.flex-col-reverse` flex-direction: column-reverse
+
+Example:
+
+```html
+<div class="flex gap-2">
+    <div class="bg-blue text-white p-2">1</div>
+    <div class="bg-green text-white p-2">2</div>
+</div>
+```
+
+### Justify Content
+
+- `.justify-start` items aligned left
+- `.justify-end` items aligned right
+- `.justify-center` items centered
+- `.justify-between` space-between
+- `.justify-around` space-around
+- `.justify-evenly` space-evenly
+
+Example:
+
+```html
+<div class="flex justify-between bg-gray text-white p-2">
+    <span>Left</span>
+    <span>Right</span>
+</div>
+```
+
+### Align Items
+
+- `.items-start` top aligned
+- `.items-end` bottom aligned
+- `.items-center` centered vertically
+- `.items-baseline` align on baseline
+- `.items-stretch` stretch to fill
+
+Example:
+
+```html
+<div class="flex items-center h-32 bg-purple text-white p-2">
+    <span>Centered vertically</span>
+</div>
+```
+
+### Align self
+
+For controlling a single flex item
+
+- `.self-start`
+- `.self-end`
+- `.self-center`
+- `.self-baseline`
+- `.self-stretch`
+
+Example:
+
+```html
+<div class="flex items-start gap-2 h-32 bg-lightgray p-2">
+    <div class="bg-blue text-white p-2">Normal</div>
+    <div class="bg-red text-white p-2 self-end">Bottom aligned</div>
+</div>
+```
+
+### Flex wrap
+
+- `.flex-wrap` wrap items
+- `.flex-nowrap` prevent wrapping
+- `.flex-wrap-reverse` wrap in reverse order
+
+```html
+<div class="flex flex-wrap gap-2 bg-darkgray text-white p-2">
+    <div class="bg-green p-2">Box 1</div>
+    <div class="bg-green p-2">Box 2</div>
+    <div class="bg-green p-2">Box 3</div>
+</div>
+```
+
+### Gap
+
+add spacing between flex or grid items
+
+- `.gap-1` 0.25rem
+- `.gap-2` 0.5rem
+- `.gap-3` 0.75rem
+- `.gap-4` 1rem
+- `.gap-5` 1.5rem
+
+Example:
+
+```html
+<div class="flex gap-4 bg-orange p-2">
+    <div class="bg-white text-black p-2">A</div>
+    <div class="bg-white text-black p-2">B</div>
+    <div class="bg-white text-black p-2">C</div>
+</div>
+```
+
+### Flex Helpers
+
+- `.flex-1` take available space
+- `.flex-auto` grow/shrink as needed
+- `.flex-none` fixed-size
+
+Example:
+
+```html
+<div class="flex gap-2">
+    <div class="flex-1 bg-green text-white p-2">I grow</div>
+    <div class="flex-none bg-red text-white p-2">I don’t grow</div>
+</div>
+```
+
+### Shortcuts
+
+- `.flex-center` horizontal & vertical centering
+- `.flex-space-between` justify-between
+- `flex-space-around` justify-around
+
+Example:
+
+```html
+<div class="flex-center h-32 bg-darkgray text-white">
+    Perfectly centered
+</div>
+```
+
+### Responsive Flex
+
+you can use responsive prefixes:
+
+- `sm:flex-col` (small screens) stack items vertically
+- `md:justify-between` (medium screens) distribute with space-between
+- `lg:items-center` (large screens) vertically centered
+
+```html
+<div class="flex sm:flex-col md:flex-row justify-around p-2 bg-lightgray">
+    <div class="bg-blue text-white p-2">Box 1</div>
+    <div class="bg-green text-white p-2">Box 2</div>
+    <div class="bg-red text-white p-2">Box 3</div>
+</div>
+```
+
+### Full reference
+(For advanced users, [here](https://github.com/arjunGbtz/ezy.css/blob/main/src/utility/flex.css) is the complete set of flex utils as css)
