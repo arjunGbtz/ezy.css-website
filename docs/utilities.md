@@ -433,3 +433,21 @@ Example:
 <p class="font-light">Light text</p>
 <p class="font-bold">Bold text</p>
 ```
+
+## Opacity
+
+Use opacity utilities to control visibility levels
+
+- `.opacity-0` invisible
+- `.opacity-50` 50% visible
+- `.opacity-100` fully visible
+
+Example:
+
+```html
+<div class="flex gap-2">
+    <div class="bg-blue text-white p-2 opacity-100">100%</div>
+    <div class="bg-blue text-white p-2 opacity-50">50%</div>
+    <div class="bg-blue text-white p-2 opacity-0">0%</div>
+</div>
+```
