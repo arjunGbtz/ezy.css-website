@@ -6,7 +6,7 @@ ezy.css is a lightweight, modern CSS framework for rapid prototyping.
 - **Responsive:** Mobile-first grid & flex
 - **Animated:** Easy animation utilities
 
-## Get Started
+### Get Started
 
 [Installation & Usage](getting-started.md)
 
@@ -16,6 +16,6 @@ ezy.css is a lightweight, modern CSS framework for rapid prototyping.
 
 [Animations](animations.md)
 
-## Examples
+### Examples
 
 [See examples](examples.md)

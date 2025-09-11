@@ -371,3 +371,65 @@ Example:
 </div>
 ```
 
+## Typography
+
+ezy.css includes utilities for controlling **text alignment, size, weight, & decoration**
+
+---
+
+### Text Alignment
+
+- `.text-left` text-align: left
+- `.text-center` text-align: center
+- `.text-right` text-align: right
+
+Example:
+
+```html
+<p class="text-center text-lg">Centered paragraph</p>
+```
+
+### Text Transform & Decoration
+
+- `.text-uppercase` transform text to uppercase
+- `.underlined` underline text
+- `.deco-red`, `.deco-blue`, `...` underline color
+
+Example: 
+
+```html
+<p class="text-uppercase underlined deco-purple">Important Text</p>
+```
+
+### Font Size
+
+- `.text-xs` 0.75rem
+- `.text-sm` 0.875rem
+- `.text-base` 1rem
+- `.text-lg` 1.25rem
+- `.text-xl` 2rem
+- `.text-2xl` 2.5rem
+- `.text-3xl` 3rem
+- `.text-4xl` 4rem
+- `.text-5xl` 5rem
+
+Example:
+
+```html
+<h1 class="text-4xl font-bold">Big Heading</h1>
+```
+
+### Font Weight
+
+- `.font-light` 300
+- `.font-normal` 400
+- `.font-medium` 500
+- `.font-bold` 700
+- `.font-black` 900
+
+Example:
+
+```html
+<p class="font-light">Light text</p>
+<p class="font-bold">Bold text</p>
+```
