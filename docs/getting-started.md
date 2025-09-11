@@ -6,7 +6,7 @@ Currently, ezy.css is not available via npm or CDN.
 
 ### Manuell (recommended)
   
-1. Donwload `ezy.zip` from the [GitHub Releases](https://github.com/yourname/ezy.css/releases).
+1. Donwload `ezy.zip` from the [GitHub Releases](https://github.com/arjungbtz/ezy.css/releases).
 2. Extract the ZIP. You will get a folder named `ezy/` containing: `ezy/ezy.js` and `ezy/ezy.min.css`
 3. link the files in your HTML:
 
@@ -20,14 +20,14 @@ Currently, ezy.css is not available via npm or CDN.
 You can download the files directly with curl or wget
 
 Unix:
-```bash
+```sh
 curl -L -o ezy.zip https://github.com/arjunGbtz/ezy.css/releases/download/v1.0.0/ezy.zip
 unzip ezy.zip
 
 ```
 
 Powershell:
-```
+```sh
 Invoke-WebRequest -Uri "https://github.com/arjunGbtz/ezy.css/releases/download/v1.0.0/ezy.zip" -OutFile "ezy.zip"
 Expand-Archive -Path ezy.zip -DestinationPath .
 ```

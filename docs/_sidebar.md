@@ -1,4 +1,4 @@
-- [Home](README.md)
+- [Home](home.md)
 - [Getting Started](getting-started.md)
 - [Utilities](utilities.md)
 - [Components](components.md)

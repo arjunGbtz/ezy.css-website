@@ -78,14 +78,6 @@ use these to control how elements are displayed
 - `.inline-flex` display: inline-flex
 - `.grid` display: grid
 
-Example:
-
-```html
-<div class="container bg-lightgray p-4 rounded">
-    <h2 class="text-center">Centered Container</h2>
-</div>
-```
-
 ### Container
 
 The `.container`utility centers content and provides horizontal padding.
@@ -109,7 +101,7 @@ Width utilities use percentage values
 - `.w-75` width: 75%
 - `.w-100` width: 100%
 
-Extra steps in 5% increments: `.w-5`, .`w-10`, ..., `.w-95`
+Extra steps in 5% increments: `.w-5`, `.w-10`, ..., `.w-95`
 
 Example:
 
