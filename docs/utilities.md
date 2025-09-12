@@ -303,9 +303,6 @@ you can use responsive prefixes:
 </div>
 ```
 
-### Full reference
-(For advanced users, [here](https://github.com/arjunGbtz/ezy.css/blob/main/src/utility/flex.css) is the complete set of flex utils as css)
-
 ## Grid
 
 > ezy.css provides a lightweight grid system using css grid. Grids make it easy to build **responsive, multi-column** layouts with just a few classes

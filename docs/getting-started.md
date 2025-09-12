@@ -21,14 +21,14 @@ You can download the files directly with curl or wget
 
 Unix:
 ```sh
-curl -L -o ezy.zip https://github.com/arjunGbtz/ezy.css/releases/download/v1.0.0/ezy.zip
+curl -L -o ezy.zip https://github.com/arjunGbtz/ezy.css/releases/download/v1.0.0-nightly.1/ezy.zip
 unzip ezy.zip
 
 ```
 
 Powershell:
 ```sh
-Invoke-WebRequest -Uri "https://github.com/arjunGbtz/ezy.css/releases/download/v1.0.0/ezy.zip" -OutFile "ezy.zip"
+Invoke-WebRequest -Uri "https://github.com/arjunGbtz/ezy.css/releases/download/v1.0.0-nightly.1/ezy.zip" -OutFile "ezy.zip"
 Expand-Archive -Path ezy.zip -DestinationPath .
 ```
 
