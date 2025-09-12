@@ -24,6 +24,13 @@ These are based on the utility classes and can be freely customized.
 - `.btn-lg` Large
 - `.btn-xl` Extra large
 
+### Focus Styles
+
+Buttons have built in `:focus` styles for accessibility
+`.btn` blue outline
+`.btn-glass` white outline (works well on glass backgrounds)
+Smooth transition for outline color and offset is included
+
 Example:
 
 ```html
