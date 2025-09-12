@@ -1,6 +1,6 @@
 # Animations😎
 
-ezy.css provides a set of ready to use animtion and transition utilities. Combine these with your components to add life to your UI with minimal code
+> ezy.css provides a set of ready to use animtion and transition utilities. Combine these with your components to add life to your UI with minimal code
 
 ## Animation Utilities
 
@@ -48,7 +48,7 @@ Example:
 
 ## Hover Effects
 
-Add simple interactivity on hover
+> Add simple interactivity on hover
 
 ---
 
@@ -70,7 +70,7 @@ Example:
 
 ## ezy-animate (scroll animations)
 
-add animations on scroll with ezy-animate
+> add animations on scroll with ezy-animate
 
 ---
 
@@ -112,7 +112,7 @@ Example:
 
 ## Summary
 
-A small summary of what you have learned on this page
+> A small summary of what you have learned on this page
 
 ---
 

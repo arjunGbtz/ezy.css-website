@@ -8,7 +8,7 @@ These are based on the utility classes and can be freely customized.
 
 ## Buttons
 
-Buttons are designed using the ".btn" class. Combine these with color utilities (bg-*, text-*) and size modifiers for flexibility
+> Buttons are designed using the ".btn" class. Combine these with color utilities (bg-*, text-*) and size modifiers for flexibility
 
 ---
 
@@ -34,7 +34,7 @@ Example:
 
 ## Cards
 
-Cards are simple containers with border and padding. Use utility classes to customize background text and layout
+> Cards are simple containers with border and padding. Use utility classes to customize background text and layout
 
 ---
 
@@ -53,7 +53,7 @@ Example:
 
 ## Alerts
 
-Alerts display important messages. Use color classes to indicate type
+> Alerts display important messages. Use color classes to indicate type
 
 ---
 
@@ -86,10 +86,12 @@ Examples:
 
 ## Modals
 
-Modals are overlays for dialogs or extra content
+> Modals are overlays for dialogs or extra content
+
+---
+
 - `.modal` wrapper
 - `.modal-content` inner box
----
 
 Example:
 
@@ -105,7 +107,7 @@ Example:
 
 ## Inputs
 
-Form controls like inputs and textareas come with simple base styles
+> Form controls like inputs and textareas come with simple base styles
 
 ---
 
@@ -127,7 +129,7 @@ Examples:
 
 ## Tables
 
-Tables use minimal styling out of the box, enhance with utilities for borders, spacing, and colors.
+> Tables use minimal styling out of the box, enhance with utilities for borders, spacing, and colors.
 
 ---
 
@@ -164,7 +166,7 @@ Example:
 
 ## Badges
 
-Badges are small labels for notifications, status or counters
+> Badges are small labels for notifications, status or counters
 
 ---
 
@@ -180,7 +182,7 @@ Example:
 
 ## Navbar
 
-Navbar is a flexible container for navigation links
+>Navbar is a flexible container for navigation links
 
 - `.navbar` main container
 - `ul` & `li` come with basic styling but can be customized with utility classes

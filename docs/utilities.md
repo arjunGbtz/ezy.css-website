@@ -2,7 +2,7 @@
 
 ## Spacing
 
-ezy.css includes utilities for controlling **margin** and **padding**.
+> ezy.css includes utilities for controlling **margin** and **padding**.
 These use a simple scale, based on spacing variables (`--sp-1` = `0.25rem` & `--sp-2` = `0.5rem` & ...)
 
 ---
@@ -62,7 +62,7 @@ Example:
 
 ## Layout
 
-ezy.css provides utilities for handling **display**, **container width**, These help structure your page quickly
+> ezy.css provides utilities for handling **display**, **container width**, These help structure your page quickly
 
 ---
 
@@ -149,7 +149,7 @@ Example:
 
 ## Flexbox
 
-ezy.css comes with a full set of flexbox utilities for creating responsive layouts quickly
+> ezy.css comes with a full set of flexbox utilities for creating responsive layouts quickly
 
 ---
 
@@ -308,7 +308,7 @@ you can use responsive prefixes:
 
 ## Grid
 
-ezy.css provides a lightweight grid system using css grid. Grids make it easy to build **responsive, multi-column** layouts with just a few classes
+> ezy.css provides a lightweight grid system using css grid. Grids make it easy to build **responsive, multi-column** layouts with just a few classes
 
 ---
 
@@ -373,7 +373,7 @@ Example:
 
 ## Typography
 
-ezy.css includes utilities for controlling **text alignment, size, weight, & decoration**
+> ezy.css includes utilities for controlling **text alignment, size, weight, & decoration**
 
 ---
 
@@ -436,7 +436,7 @@ Example:
 
 ## Opacity
 
-Use opacity utilities to control visibility levels
+> Use opacity utilities to control visibility levels
 
 ---
 
@@ -456,7 +456,7 @@ Example:
 
 ## Borders
 
-Utilities for controlling **border radius, style & color**
+> Utilities for controlling **border radius, style & color**
 
 ---
 
@@ -490,7 +490,7 @@ Example:
 
 ## Shadows
 
-Apply depth with simple shadow utils
+> Apply depth with simple shadow utils
 
 ---
 
@@ -506,7 +506,7 @@ Example :
 
 ## Cursors
 
-Change the cursor style on hover
+> Change the cursor style on hover
 
 ---
 

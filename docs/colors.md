@@ -1,8 +1,6 @@
 # Colors🎨
 
-ezy.css features a simple yet flexible color system.
-
-You can quickly set backgrounds, text, borders, and decorations—and even define your own custom palette.
+> ezy.css features a simple yet flexible color system. You can quickly set backgrounds, text, borders, and decorations—and even define your own custom palette.
 
 ## Basics: Backrgound & Text colors
 
@@ -10,7 +8,7 @@ You can quickly set backgrounds, text, borders, and decorations—and even defin
 
 ### Background colors
 
-use `.bg-*` classes to set background colors
+> use `.bg-*` classes to set background colors
 
 Example: 
 
@@ -21,7 +19,7 @@ Example:
 
 ### Text colors
 
-use `.text-*` classes to change the text color
+> use `.text-*` classes to change the text color
 
 Example:
 
@@ -32,7 +30,7 @@ Example:
 
 ### Borders & Outline colors
 
-use `.bc-*` classes to style the border color
+> use `.bc-*` classes to style the border color
 
 Example: 
 
@@ -42,7 +40,7 @@ Example:
 
 ### Decoration Colors
 
-Underline decorations can also be colored with `.deco-*`
+> Underline decorations can also be colored with `.deco-*`
 
 Example:
 
@@ -52,7 +50,7 @@ Example:
 
 ## Predefined Color Palette
 
-The following colors are available out of the box
+> The following colors are available out of the box
 
 ---
 
@@ -82,7 +80,7 @@ The following colors are available out of the box
 
 ## Custom Colors
 
-With ezy.css you can define your own custom colors or override the existing ones.
+> With ezy.css you can define your own custom colors or override the existing ones.
 
 ---
 
