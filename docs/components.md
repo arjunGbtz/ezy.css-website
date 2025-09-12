@@ -8,7 +8,7 @@ These are based on the utility classes and can be freely customized.
 
 ## Buttons
 
-Buttons are designed using the ".btn" class. Combine these with color utilities (bg-*, text-*) and size modifiers
+Buttons are designed using the ".btn" class. Combine these with color utilities (bg-*, text-*) and size modifiers for flexibility
 
 ---
 
@@ -105,12 +105,12 @@ Example:
 
 ## Inputs
 
-Form controls like inputs and textareas come with base styles
+Form controls like inputs and textareas come with simple base styles
 
 ---
 
 - `.input` default input
-- `.input-sm`, `input-lg` sizes
+- `.input-sm`, `.input-lg` sizes
 
 
 - `:valid` changes the border color to `--color-success`
@@ -183,7 +183,7 @@ Example:
 Navbar is a flexible container for navigation links
 
 - `.navbar` main container
-- `ul` & `li` comes with basic styling but can be customized with utility classes
+- `ul` & `li` come with basic styling but can be customized with utility classes
 
 Example:
 
@@ -204,4 +204,6 @@ You can freely combine buttons, cards, alerts, modals, and more.
 
 Want something a little more fancy? Customize colors, sizes, and animations with utility classes.
 
-Next: Dive into and fancy [colors](colors.md?id=Colors🎨) and [animations](animations.md?id=Animations😎) to make your UI shine! ✨
+Next: Dive into fancy [colors](colors.md?id=Colors🎨) and [animations](animations.md?id=Animations😎) to make your UI shine! ✨
+
+Until then: **stay ezy.** ✌️😎

@@ -490,7 +490,7 @@ Example:
 
 ## Shadows
 
-Apply depth with simply shadow utils
+Apply depth with simple shadow utils
 
 ---
 
