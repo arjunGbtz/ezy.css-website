@@ -100,7 +100,7 @@ This will create:
 
 ### Usage
 
-Edit your custom_colors.json like this:
+Edit your `custom_colors.json` like this:
 
 ```json
 {
