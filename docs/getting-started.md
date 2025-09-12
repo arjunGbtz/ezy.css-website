@@ -7,8 +7,8 @@ Currently, ezy.css is not available via npm or CDN.
 ### Manuell (recommended)
   
 1. Donwload `ezy.zip` from the [GitHub Releases](https://github.com/arjungbtz/ezy.css/releases).
-2. Extract the ZIP. You will get a folder named `ezy/` containing: `ezy/ezy.js` and `ezy/ezy.min.css`
-3. link the files in your HTML:
+2. Extract the ZIP. You will get a folder named `ezy/` containing: `ezy/ezy.js`, `ezy/helper.js` and `ezy/ezy.min.css`
+3. link `ezy/ezy.js` & `ezy/ezy.min.css` in your HTML:
 
 ```html
 <link rel="stylesheet" href="ezy/ezy.min.css">

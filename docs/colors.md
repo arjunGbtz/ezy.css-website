@@ -82,7 +82,7 @@ The following colors are available out of the box
 
 ## Custom Colors
 
-With ezy.css you can now define your own custom colors or override the existing ones.
+With ezy.css you can define your own custom colors or override the existing ones.
 
 ---
 
@@ -117,6 +117,8 @@ Then update your CSS classes by running:
 npm run update-colors
 ```
 
+After running the command, the new custom colors are immediately available as utility classes such as `.bg-foo`, `.text-foo` or `.bc-foo`
+
 ### Overriding Predefined colors
 
 to override predefined colors, manually write them in `:root`
@@ -131,4 +133,4 @@ to override predefined colors, manually write them in `:root`
 
 ### Thats it for Colors 🎉
 
-Now that you can style backgrounds, text, borders & even define your own palette - why stop at static colors? Next up: [animations](animation.md?id=Animations😎)
+Now that you can style backgrounds, text, borders & even define your own palette - why stop at static colors? Next up: [animations](animations.md?id=Animations😎)

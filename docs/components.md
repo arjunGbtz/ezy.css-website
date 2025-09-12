@@ -4,7 +4,7 @@ ezy.css contains a small but powerful collection of components.
 
 These are based on the utility classes and can be freely customized.
 
-**Note**: most of these components with some exceptions do not contain background colors, etc. by default, they need to be manually set 
+**Note**: Most components do not have predefined background colors, so you need to set them manually using utility classes
 
 ## Buttons
 
@@ -27,7 +27,7 @@ Buttons are designed using the ".btn" class. Combine these with color utilities 
 Example:
 
 ```html
-<button class="btn btn-primary">Primary</button>
+<button class="btn bg-black rounded-sm">Normal Button</button>
 <button class="btn btn-outline">Outline</button>
 <button class="btn btn-sm">Small ghost</button>
 ```
