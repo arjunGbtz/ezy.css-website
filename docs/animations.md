@@ -80,6 +80,7 @@ Example:
 - `ezy-animate="fade-in"` fades in
 - `ezy-animate="zoom-in"` zooms in
 - `ezy-animate="zoom-out"` zooms out
+- `ezy-animate="bounce-in"` pops in with a bounce
 
 Example:
 
@@ -90,6 +91,8 @@ Example:
 ```
 
 ## Predefined Animations
+
+> Animations that run immediately on load, without scroll trigger.
 
 ---
 

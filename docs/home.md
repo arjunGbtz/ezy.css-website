@@ -7,6 +7,8 @@ The sweet spot between Tailwind and Pico
 
 [➡️ Get Started](getting-started.md) · [⭐ Star on GitHub](https://github.com/arjungbtz/ezy.css)
 
+---
+
 ```html
 <button class="btn bg-blue text-white rounded">Click Me</button>
 ````
