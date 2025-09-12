@@ -116,7 +116,7 @@ Form controls like inputs and textareas come with simple base styles
 - `:valid` changes the border color to `--color-success`
 - `:invalid` changes the border color to `--color-error`
 
-You can customize these colors in :root. Learn more about custom colors [here](colors.md)
+You can customize these colors in :root. Learn more about custom colors [here](colors.md?id=Colors🎨)
 
 Examples:
 

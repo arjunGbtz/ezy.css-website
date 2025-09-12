@@ -82,25 +82,51 @@ The following colors are available out of the box
 
 ## Custom Colors
 
-ezy.css currently uses a fixed set of color variables such as "--color-red", "--color-blue", etc.
-You cannot add new names (e.g., "--color-brand") because the helper variables (.bg-*, ".text-*", ".bc-*", etc.) are hard-coded to the default set.
-
-👉 However, you can override the default colors in your own project by redefining them in ":root".
+With ezy.css you can now define your own custom colors or override the existing ones.
 
 ---
 
-Example:
+### Setup:
+
+to enable the custom colors feature run:
+
+```js
+node ezy/helper.js --setup-colors
+```
+
+This will create:
+1. `custom_colors.json` in your project root
+2. A script in `package.json` to update colors (npm run update-colors)
+
+### Usage
+
+Edit your custom_colors.json like this:
+
+```json
+{
+  "custom": {
+    "foo": "#123456",
+    "bar": "#abcdef"
+  }
+}
+```
+
+Then update your CSS classes by running:
+
+```js
+npm run update-colors
+```
+
+### Overriding Predefined colors
+
+to override predefined colors, manually write them in `:root`
 
 ```html
 <style>
-:root {
---color-red: #ff1111; /* overrides the default red */
---color-blue: #2222ff; /* overrides the default blue */
-}
+    :root {
+        --color-red: #F54927; /* overrides default red */
+    }
 </style>
-
-<div class="bg-red p-2">This is my custom red</div>
-<div class="text-blue">This is my custom blue</div>
 ```
 
 ### Thats it for Colors 🎉
