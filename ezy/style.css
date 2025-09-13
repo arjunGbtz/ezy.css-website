@@ -4,7 +4,7 @@ body {
     background-image: url("../assets/bg.png");
 }
 .gradient {
-    background: linear-gradient(90deg, #ffa9a9, #ffc09b, #cb8cd1);
+    background: linear-gradient(90deg, rgb(255, 169, 169), rgb(255, 192, 155), rgb(203, 140, 209));
     background-size: 200%;
     animation: gradientShift 6s ease infinite;
     -webkit-background-clip: text;
